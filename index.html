@@ -533,10 +533,14 @@ section{
   gap:14px;
 }
 .product .shot{
+  display:block;
   position:relative;
   overflow:hidden;
   background:var(--bg-bone);
+  cursor:pointer;
 }
+.product .name a{display:inline;border-bottom:1px solid transparent;transition:border-color .3s var(--ease)}
+.product .name a:hover{border-color:var(--ink)}
 .product .shot::after{
   content:"";
   position:absolute;inset:0;
@@ -1081,67 +1085,67 @@ footer{
   <div class="products reveal-stagger">
 
     <article class="product p-1">
-      <div class="shot"><img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=1200&auto=format&fit=crop&q=80" alt="Cazadora de cuero vintage sobre fondo neutro" loading="lazy" /></div>
+      <a class="shot" href="producto/001.html" aria-label="Ver № 001 — Biker cropped Belstaff"><img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=1200&auto=format&fit=crop&q=80" alt="Cazadora de cuero vintage sobre fondo neutro" loading="lazy" /></a>
       <div class="meta"><span>№ 001 · 1987 · LEATHER</span><span>Unisex</span></div>
-      <div class="name">Biker cropped en <em>piel envejecida</em></div>
-      <div class="brand">Belstaff · Inglaterra</div>
-      <a href="#visita" class="cta">Consultar disponibilidad →</a>
+      <div class="name"><a href="producto/001.html">Biker cropped en <em>piel envejecida</em></a></div>
+      <div class="brand">Belstaff · Inglaterra · €380</div>
+      <a href="producto/001.html" class="cta">Ver pieza →</a>
     </article>
 
     <article class="product p-2">
-      <div class="shot"><img src="https://images.unsplash.com/photo-1544441893-675973e31985?w=1000&auto=format&fit=crop&q=80" alt="Abrigo de piel sobre percha" loading="lazy" /></div>
+      <a class="shot" href="producto/002.html" aria-label="Ver № 002 — Abrigo Valentino"><img src="https://images.unsplash.com/photo-1544441893-675973e31985?w=1000&auto=format&fit=crop&q=80" alt="Abrigo de piel sobre percha" loading="lazy" /></a>
       <div class="meta"><span>№ 002 · 1979 · FUR</span><span>Mujer</span></div>
-      <div class="name">Abrigo largo <em>oversized</em></div>
-      <div class="brand">Valentino · Milán</div>
-      <a href="#visita" class="cta">Consultar disponibilidad →</a>
+      <div class="name"><a href="producto/002.html">Abrigo largo <em>oversized</em></a></div>
+      <div class="brand">Valentino · Milán · €720</div>
+      <a href="producto/002.html" class="cta">Ver pieza →</a>
     </article>
 
     <article class="product p-3">
-      <div class="shot"><img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=900&auto=format&fit=crop&q=80" alt="Prenda vintage de los 70" loading="lazy" /></div>
+      <a class="shot" href="producto/003.html" aria-label="Ver № 003 — Vestido Max Mara"><img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=900&auto=format&fit=crop&q=80" alt="Prenda vintage de los 70" loading="lazy" /></a>
       <div class="meta"><span>№ 003 · 1974 · WOOL</span><span>Mujer</span></div>
-      <div class="name">Vestido de <em>tweed</em></div>
-      <div class="brand">Max Mara</div>
-      <a href="#visita" class="cta">Consultar disponibilidad →</a>
+      <div class="name"><a href="producto/003.html">Vestido de <em>tweed</em></a></div>
+      <div class="brand">Max Mara · €220</div>
+      <a href="producto/003.html" class="cta">Ver pieza →</a>
     </article>
 
     <article class="product p-4">
-      <div class="shot"><img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=1200&auto=format&fit=crop&q=80" alt="Retrato editorial vintage en tonos tierra" loading="lazy" /></div>
+      <a class="shot" href="producto/004.html" aria-label="Ver № 004 — Trench Burberry"><img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=1200&auto=format&fit=crop&q=80" alt="Retrato editorial vintage en tonos tierra" loading="lazy" /></a>
       <div class="meta"><span>№ 004 · 1991 · COTTON</span><span>Unisex</span></div>
-      <div class="name">Trench cruzado en <em>algodón encerado</em></div>
-      <div class="brand">Burberry · Londres</div>
-      <a href="#visita" class="cta">Consultar disponibilidad →</a>
+      <div class="name"><a href="producto/004.html">Trench cruzado en <em>algodón encerado</em></a></div>
+      <div class="brand">Burberry · Londres · €340</div>
+      <a href="producto/004.html" class="cta">Ver pieza →</a>
     </article>
 
     <article class="product p-5">
-      <div class="shot"><img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=1600&auto=format&fit=crop&q=80" alt="Textura de piel en primer plano" loading="lazy" /></div>
+      <a class="shot" href="producto/005.html" aria-label="Ver № 005 — Shearling Woolrich"><img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=1600&auto=format&fit=crop&q=80" alt="Textura de piel en primer plano" loading="lazy" /></a>
       <div class="meta"><span>№ 005 · 1984 · SHEARLING</span><span>Hombre</span></div>
-      <div class="name">Chaqueta <em>shearling</em> color coñac</div>
-      <div class="brand">Woolrich · Pensilvania</div>
-      <a href="#visita" class="cta">Consultar disponibilidad →</a>
+      <div class="name"><a href="producto/005.html">Chaqueta <em>shearling</em> color coñac</a></div>
+      <div class="brand">Woolrich · Pensilvania · €460</div>
+      <a href="producto/005.html" class="cta">Ver pieza →</a>
     </article>
 
     <article class="product p-6">
-      <div class="shot"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900&auto=format&fit=crop&q=80" alt="Look vintage completo en estudio" loading="lazy" /></div>
+      <a class="shot" href="producto/006.html" aria-label="Ver № 006 — Cazadora Levi's"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900&auto=format&fit=crop&q=80" alt="Look vintage completo en estudio" loading="lazy" /></a>
       <div class="meta"><span>№ 006 · 1996 · DENIM</span><span>Unisex</span></div>
-      <div class="name">Cazadora denim <em>western</em></div>
-      <div class="brand">Levi's · Vintage</div>
-      <a href="#visita" class="cta">Consultar disponibilidad →</a>
+      <div class="name"><a href="producto/006.html">Cazadora denim <em>western</em></a></div>
+      <div class="brand">Levi's · Vintage · €140</div>
+      <a href="producto/006.html" class="cta">Ver pieza →</a>
     </article>
 
     <article class="product p-7">
-      <div class="shot"><img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1800&auto=format&fit=crop&q=80" alt="Tienda vintage, interior en tonos crema" loading="lazy" /></div>
+      <a class="shot" href="producto/007.html" aria-label="Ver № 007 — Blusa YSL"><img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1800&auto=format&fit=crop&q=80" alt="Tienda vintage, interior en tonos crema" loading="lazy" /></a>
       <div class="meta"><span>№ 007 · 1982 · SILK</span><span>Mujer</span></div>
-      <div class="name">Blusa de <em>seda con estampado foulard</em></div>
-      <div class="brand">Yves Saint Laurent · París</div>
-      <a href="#visita" class="cta">Consultar disponibilidad →</a>
+      <div class="name"><a href="producto/007.html">Blusa de <em>seda con estampado foulard</em></a></div>
+      <div class="brand">Yves Saint Laurent · París · €280</div>
+      <a href="producto/007.html" class="cta">Ver pieza →</a>
     </article>
 
     <article class="product p-8">
-      <div class="shot"><img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=1200&auto=format&fit=crop&q=80" alt="Accesorio vintage" loading="lazy" /></div>
+      <a class="shot" href="producto/008.html" aria-label="Ver № 008 — Bolso Hermès"><img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=1200&auto=format&fit=crop&q=80" alt="Accesorio vintage" loading="lazy" /></a>
       <div class="meta"><span>№ 008 · 1989 · CANVAS</span><span>Unisex</span></div>
-      <div class="name">Bolso de lona <em>encerada</em></div>
-      <div class="brand">Hermès · París</div>
-      <a href="#visita" class="cta">Consultar disponibilidad →</a>
+      <div class="name"><a href="producto/008.html">Bolso de lona <em>encerada</em></a></div>
+      <div class="brand">Hermès · París · €890</div>
+      <a href="producto/008.html" class="cta">Ver pieza →</a>
     </article>
 
   </div>
